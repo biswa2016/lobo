@@ -1,0 +1,18 @@
+<table mdbTable>
+    <thead class="black white-text">
+      <tr>
+        <th scope="col">Name</th>
+        <th scope="col">Age</th>
+        <th scope="col">Hight</th>
+        <th scope="col">Weight</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr mdbTableCol *ngFor="let el of school">
+        <th scope="row">{{el.name}}</th>
+        <td>{{el.age}}</td>
+        <td>{{el.hight}}</td>
+        <td>{{el.wight}}</td>
+      </tr>
+    </tbody>
+  </table>
